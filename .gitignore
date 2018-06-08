@@ -49,3 +49,4 @@ Temporary Items
 **/node_modules
 **/bin
 **/wwwroot/dist
+/.vs/EventGridWindowsFormsApp/v15

@@ -30,7 +30,7 @@ namespace EventGridWindowsFormsApp
             string topicEndpoint = EventTopicTextBox.Text;
 
             var httpClient = new HttpClient();
-            httpClient.DefaultRequestHeaders.Add("aeg-sas-key", "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
+            httpClient.DefaultRequestHeaders.Add("aeg-sas-key", "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
 
             List<CustomEvent<SampleEventData>> events = new List<CustomEvent<SampleEventData>>();
             var customEvent = new CustomEvent<SampleEventData>();
